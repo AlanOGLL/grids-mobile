@@ -1,0 +1,1 @@
+D:\Grids\projekt\Grids\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\5p2q4f3k\obj\arm64-v8a

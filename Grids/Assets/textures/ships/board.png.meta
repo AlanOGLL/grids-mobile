@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 86bdacd974dbfba46a73dca9bb2a6f09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -509972194752314375
+    second: statki_0
+  - first:
+      213: -1002935999553383770
+    second: statki_1
+  - first:
+      213: 7895651537136583977
+    second: statki_2
+  - first:
+      213: 4264382190997573275
+    second: statki_3
+  - first:
+      213: -2348306197585198644
+    second: statki_4
+  - first:
+      213: 2852334162636710099
+    second: statki_5
+  - first:
+      213: -4649809559732233170
+    second: statki_6
+  - first:
+      213: -4514730436660313232
+    second: statki_7
+  - first:
+      213: 8034365243167517785
+    second: statki_8
+  - first:
+      213: 6707243616802671800
+    second: statki_9
+  - first:
+      213: -7697095232293502727
+    second: statki_10
+  - first:
+      213: 7544818794704823738
+    second: statki_11
+  - first:
+      213: -7340733429528895847
+    second: statki_12
+  - first:
+      213: 5553021353426439551
+    second: statki_13
+  - first:
+      213: -2508747998128907794
+    second: statki_14
+  - first:
+      213: 995924473940536084
+    second: statki_15
+  - first:
+      213: -6728228502740254098
+    second: statki_16
+  - first:
+      213: -8170232757694590288
+    second: statki_17
+  - first:
+      213: -8301651415300811787
+    second: statki_18
+  - first:
+      213: 7382067246612148499
+    second: statki_19
+  - first:
+      213: -8699297619840990387
+    second: statki_20
+  - first:
+      213: -4108209386515716291
+    second: statki_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: statki_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 540
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f34676adf63ce8f0800000000000000
+      internalID: -509972194752314375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 540
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25b2ea50bd412f0800000000000000
+      internalID: -1002935999553383770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 540
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9250b457d3df29d60800000000000000
+      internalID: 7895651537136583977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 540
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e89e052012e2b30800000000000000
+      internalID: 4264382190997573275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 540
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1061584f3296fd0800000000000000
+      internalID: -2348306197585198644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 540
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d02ca00fc6859720800000000000000
+      internalID: 2852334162636710099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 540
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cd1f657de887fb0800000000000000
+      internalID: -4649809559732233170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 540
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073c73286947851c0800000000000000
+      internalID: -4514730436660313232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_8
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 540
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95caebaee9ccf7f60800000000000000
+      internalID: 8034365243167517785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_9
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 540
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc8781788ae41d50800000000000000
+      internalID: 6707243616802671800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 540
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f00bcccaac6e2590800000000000000
+      internalID: -7697095232293502727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 497
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5621938b494b860800000000000000
+      internalID: 7544818794704823738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 62
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e5816b6d9702a90800000000000000
+      internalID: -7340733429528895847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 453
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d4421ff7b401d40800000000000000
+      internalID: 5553021353426439551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 406
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9dd84dcf22f2dd0800000000000000
+      internalID: -2508747998128907794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 360
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41be75c480c32dd00800000000000000
+      internalID: 995924473940536084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 312
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62428e03d780a2a0800000000000000
+      internalID: -6728228502740254098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 264
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b29a5938908d9e80800000000000000
+      internalID: -8170232757694590288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 218
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f350e5950c9acc80800000000000000
+      internalID: -8301651415300811787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 170
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311fc568c0f527660800000000000000
+      internalID: 7382067246612148499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 125
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d430af5d7e2e54780800000000000000
+      internalID: -8699297619840990387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statki_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 78
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d372ec54455bcf6c0800000000000000
+      internalID: -4108209386515716291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      statki_0: -509972194752314375
+      statki_1: -1002935999553383770
+      statki_10: -7697095232293502727
+      statki_11: 7544818794704823738
+      statki_12: -7340733429528895847
+      statki_13: 5553021353426439551
+      statki_14: -2508747998128907794
+      statki_15: 995924473940536084
+      statki_16: -6728228502740254098
+      statki_17: -8170232757694590288
+      statki_18: -8301651415300811787
+      statki_19: 7382067246612148499
+      statki_2: 7895651537136583977
+      statki_20: -8699297619840990387
+      statki_21: -4108209386515716291
+      statki_3: 4264382190997573275
+      statki_4: -2348306197585198644
+      statki_5: 2852334162636710099
+      statki_6: -4649809559732233170
+      statki_7: -4514730436660313232
+      statki_8: 8034365243167517785
+      statki_9: 6707243616802671800
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
