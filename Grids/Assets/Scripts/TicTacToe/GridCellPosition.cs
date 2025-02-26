@@ -7,6 +7,7 @@ public class GridCellPosition : MonoBehaviour
 
     public void OnMouseDown()
     {
-        TicTacManager.Instance.ClickedOnGridPosition(x,y);
+        Debug.Log("GridCellPosition, OnMouseDown");
+        TicTacManager.Instance.ClickedOnGridPositionRpc(x,y, TicTacManager.Instance.GetLocalPlayerType());
     }
 }

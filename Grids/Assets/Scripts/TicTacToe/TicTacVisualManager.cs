@@ -12,7 +12,7 @@ public class TicTacVisualManager : NetworkBehaviour
         TicTacManager.Instance.OnClickedOnGridPosition += ShowMovement;
     }
     public void ShowMovement(object sender, TicTacManager.OnClickedOnGridPositionEventArgs e){
-        SpawnObjectRpc(e.x, e.y, TicTacManager.Instance.GetLocalPlayerType());
+        SpawnObjectRpc(e.x, e.y, e.playerType);
     }
     [Rpc(SendTo.Server)]
     private void SpawnObjectRpc(int x, int y, TicTacManager.PlayerType playerType){

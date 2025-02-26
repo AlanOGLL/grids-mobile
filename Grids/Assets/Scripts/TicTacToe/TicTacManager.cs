@@ -13,7 +13,10 @@ public class TicTacManager : NetworkBehaviour
     public class OnClickedOnGridPositionEventArgs : EventArgs{
         public int x;
         public int y;
+        public PlayerType playerType;
     }
+    public event EventHandler OnGameStarted;
+    public event EventHandler OnCurrentMovingPlayerChanged;
 
     public enum PlayerType{
         None,
@@ -22,6 +25,8 @@ public class TicTacManager : NetworkBehaviour
     }
 
     private PlayerType localPlayerType;
+    private PlayerType currentMovingPlayer;
+    
 
     private void Awake()
     {
@@ -34,15 +39,39 @@ public class TicTacManager : NetworkBehaviour
         }else{
             localPlayerType = PlayerType.Circle;
         }
+        if(IsServer){
+            NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnectedCallback;
+        }
     }
+
+    private void OnClientConnectedCallback(ulong obj)
+    {
+        if(NetworkManager.Singleton.ConnectedClientsList.Count == 2){
+            currentMovingPlayer = PlayerType.Cross;
+            OnGameStarted?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
     public PlayerType GetLocalPlayerType(){
         return localPlayerType;
     }
-    public void ClickedOnGridPosition(int x, int y){
+    public PlayerType GetCurrentMovingPlayer(){
+        return currentMovingPlayer;
+    }
+    [Rpc(SendTo.Server)]
+    public void ClickedOnGridPositionRpc(int x, int y, PlayerType playerType){
+        Debug.Log("TicTacManager, ClickedOnGridPositionRpc");
+        if(playerType != currentMovingPlayer){
+            return;
+        }
+        if(playerType == PlayerType.Circle)currentMovingPlayer = PlayerType.Cross;
+        else currentMovingPlayer = PlayerType.Circle;
         OnClickedOnGridPosition?.Invoke(this, new OnClickedOnGridPositionEventArgs{
             x = x,
-            y = y
+            y = y,
+            playerType = playerType
         });
+        OnCurrentMovingPlayerChanged?.Invoke(this, EventArgs.Empty);
     }
     
 }
